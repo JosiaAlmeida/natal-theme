@@ -1,7 +1,7 @@
 <template>
   <div class="video-container">
     <video class="video-main" playsinline="" preload="auto" autoplay loop muted>
-      <source src="..//assets/christmas5.mp4" type="video/mp4" />
+      <source src="..//assets/Untitled.mp4" type="video/mp4" />
     </video>
   </div>
 </template>
