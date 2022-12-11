@@ -1,7 +1,7 @@
 <template>
   <div class="video-container">
     <video class="video-main" playsinline="" preload="auto" autoplay loop muted>
-      <source src="..//assets/christmas5.mp4" type="video/mp4" />
+      <source src="..//assets/Untitled.mp4" type="video/mp4" />
     </video>
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {};
 .video-main {
   min-width: 100%;
   min-height: 100%;
-  filter: brightness(0.8);
+  filter: brightness(0.6);
 }
 @media screen and (max-width: 920px) {
   .video-container {

@@ -1,6 +1,10 @@
 <template>
   <div class="text-container">
-    <h1>Feliz Natal E um prospero 2023</h1>
+    <div class="element-container">
+      <h1>Feliz Natal E um próspero 2023</h1>
+      <h3>Pai Natal Tem Uma Surpresa para você</h3>
+      <button class="btn btn-primary">Ver Surpresa</button>
+    </div>
   </div>
 </template>
 
@@ -18,10 +22,10 @@ export default {};
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-h1 {
   color: #f3f3f3;
   text-transform: capitalize;
+}
+.element-container {
   animation: LetterAnimation 3s ease-in-out alternate infinite;
 }
 
