@@ -1,18 +1,31 @@
 <template>
   <div id="app">
-    <TextComponent />
+    <TextComponent :handleStateModal="handleStateModal" />
     <Tree />
+    <PreviewFuture v-if="stateModal" />
   </div>
 </template>
 
 <script>
 import Tree from "./components/Tree-Component.vue";
 import TextComponent from "./components/Texto-Component";
+import PreviewFuture from "./components/Preview-Future-Component";
 export default {
   name: "App",
   components: {
     Tree,
     TextComponent,
+    PreviewFuture,
+  },
+  data() {
+    return {
+      stateModal: false,
+    };
+  },
+  methods: {
+    handleStateModal() {
+      this.stateModal = !this.stateModal;
+    },
   },
 };
 </script>

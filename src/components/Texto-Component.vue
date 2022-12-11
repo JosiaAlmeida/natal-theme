@@ -3,13 +3,24 @@
     <div class="element-container">
       <h1>Feliz Natal E um próspero 2023</h1>
       <h3>Pai Natal Tem Uma Surpresa para você</h3>
-      <button class="btn btn-primary">Ver Surpresa</button>
+      <button
+        @click="handleStateModal()"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        class="btn btn-primary"
+      >
+        Ver Surpresa
+      </button>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    ["handleStateModal"]: Function,
+  },
+};
 </script>
 
 <style scoped>
