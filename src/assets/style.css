@@ -1,0 +1,34 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #940c0c;
+  overflow: hidden;
+}
+
+.natal {
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  height: 95px;
+  background: url(https://i.imgur.com/2wZdCbl.png) center center no-repeat;
+}
+
+.arvore {
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  height: 415px;
+  left: -100%;
+  text-align: center
+}
+
+.rena {
+  position: absolute;
+  top: 300%;
+  width: 180px;
+  height: 100px;
+  left: 300%;
+  background: url(https://i.imgur.com/uT5iksY.png) no-repeat;
+}
