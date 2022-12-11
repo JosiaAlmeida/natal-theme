@@ -23,7 +23,6 @@ h1 {
   color: #f3f3f3;
   text-transform: capitalize;
   animation: LetterAnimation 3s ease-in-out alternate infinite;
-  /* animation-fill-mode: forwards; */
 }
 
 @keyframes LetterAnimation {
