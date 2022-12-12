@@ -1,5 +1,5 @@
 <template>
-  <div class="video-container">
+  <div class="video-container position-fixed right-0 bottom-0">
     <video class="video-main" playsinline="" preload="auto" autoplay loop muted>
       <source src="..//assets/Untitled.mp4" type="video/mp4" />
     </video>
@@ -12,9 +12,6 @@ export default {};
 
 <style lang="css" scoped>
 .video-container {
-  position: fixed;
-  right: 0;
-  bottom: 0;
   height: 100vh;
   width: 100vw;
 }

@@ -8,7 +8,7 @@
 
 <script>
 import Tree from "./components/Tree-Component.vue";
-import TextComponent from "./components/Texto-Component";
+import TextComponent from "./components/Text-Component";
 import PreviewFuture from "./components/Preview-Future-Component";
 export default {
   name: "App",

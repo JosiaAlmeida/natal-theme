@@ -1,5 +1,14 @@
 <template>
-  <div class="text-container">
+  <div
+    class="
+      text-container
+      position-fixed
+      d-flex
+      flex-column
+      justify-content-center
+      text-center text-capitalize
+    "
+  >
     <div class="element-container">
       <h1>Feliz Natal E um próspero 2023</h1>
       <h3>Pai Natal Tem Uma Surpresa para você</h3>
@@ -25,16 +34,10 @@ export default {
 
 <style scoped>
 .text-container {
-  text-align: center;
-  position: fixed;
   z-index: 5;
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: #f3f3f3;
-  text-transform: capitalize;
 }
 .element-container {
   animation: LetterAnimation 3s ease-in-out alternate infinite;
